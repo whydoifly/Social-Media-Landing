@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Social Media</title>
+</head>
+
+<body>
+    <div class="row no-gutters">
+        <div class="col no-gutters">
+            <div class="leftside">
+                <div class="col-sm px-0">
+                    <div id="scene" class="main-picture">
+                        <img data-depth="0.5" src="img/colors.png" class="colors-image" alt="colors-image" />
+                        <img class="top-bg" src="img/topbg.png" alt="top background">
+                    </div>
+                    <div class="row align-items-center content">
+                        <div class="col-md-6 smaller-images" id="second-scene">
+                            <img data-depth="0.4" src="img/newpost.png" alt="post-picture" />
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Easy Scheduling and Publishing</h2>
+                            <p clas="lead">
+                                Schedule and forget. We'll post it for you. Time, no more a
+                                constraint. Posting, no more a hassle!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center content">
+                        <div class="col-md-6 order-1 order-md-2 smaller-images" id="third-scene">
+                            <img data-depth="0.5" src="img/design.png" alt="design" />
+                        </div>
+                        <div class="col-md-6 order-2 order-md-1">
+                            <h2>Spoilt For Choice Design Editor</h2>
+                            <p clas="lead">
+                                Upload or create from scratch. Choose from over 700+
+                                templates, customized specially for you!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-bottom-img" id="fourth-scene">
+                        <img data-depth="0.5" src="img/bottombg.png" alt="design editor" />
+                    </div>
+                    <div class="bg-bottom-elements" id="fifth-scene">
+                        <div data-depth="0.6">
+                            <img src="img/bottombgelement.png" alt="design elements" />
+                            <img src="img/bottombgelement2.png" alt="design elements" />
+                        </div>
+                    </div>
+                    <div class="row align-items-center content design-editor">
+                        <div class="col-md-6 order-2 order-md-1 smaller-images">
+                            <img src="img/analyse.png" alt="analysis" />
+                        </div>
+                        <div class="col-md-6 order-1 order-md-2">
+                            <h2>Analyse and Retrospect</h2>
+                            <p clas="lead">
+                                Instantly gauge how your posts are performing. Our data
+                                analysis can drive your decisions, and we mean this!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center content very-bottom">
+                        <img class="early-access-words" src="img/accesswords.png" alt="early access" />
+                        <img class="access-fruit" src="img/earlyacess.png" alt="early access" />
+                        <img class="access-arrow" src="img/bottomarrow.png" alt="arrow" />
+                    </div>
+                    <footer>
+                        <p class="text-center footer-text">&copy Copyright. Pyxis Social 2020</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="col right-col">
+            <div class="rightside">
+                <div class="form-section">
+                    <div class="image-section text-center">
+                        <img src="img/imagelogo.png" alt="logo" class="logo-img" />
+                    </div>
+                    <h2 class="display-5 text-center boost-heading">
+                        Boost your Social Media following in under 10 minutes
+                    </h2>
+                    <p class="lead text-center p-head">
+                        Switching between tools? Switch to
+                        <span class="pink-bg">Pyxis Social.</span>
+                    </p>
+                    <form class="align-items-center d-flex justify-content-center">
+                        <div class="form-group">
+                            <label>Which industry</label><br />
+                            <select class="form-control-lg">
+                                <option>Choose Industry</option>
+                                <option></option>
+                            </select>
+                            <div class="form-group">
+                                <label>Email address</label><br />
+                                <input type="email" class="form-control-lg" placeholder="Type your email address" />
+                            </div>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop">
+                                Recieve Early Access
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="/img/modalimage.png" />
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Congratulations!</h2>
+                        <p class="lead">
+                            We saved your post in draft folder! Do you want to see where you
+                            can find it in the next time?
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary text-center" data-dismiss="modal">
+                            Done
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-version">
+        <div class="mobile-content">
+            <div class="content">
+                <div class="mobile-header text-center">
+                    <img src="/img/imagelogo.png" alt="mobile-logo">
+                </div>
+                <div class="row text-center">
+                    <h4 class="mobile-heading boost-heading">Boost your Social Media following in under 10 minutes</h4>
+                </div>
+                <div class="row text-center">
+                    <p class="mobile-paragraph">Switching between tools? Switch to <span class="mobile-pyxis-bg">Pyxis Social.</span></p>
+                </div>
+                <div class="row align-items-center content">
+                    <div class="col-xs-12 mobile-image" id="second-scene">
+                        <img data-depth="0.4" src="img/newpost.png" alt="post-picture" />
+                    </div>
+                    <div class="col-xs-12">
+                        <h2>Easy Scheduling and Publishing</h2>
+                        <p clas="lead">
+                            Schedule and forget. We'll post it for you. Time, no more a
+                            constraint. Posting, no more a hassle!
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-center content">
+                    <div class="col-xs-12 order-1 order-md-2 mobile-image" id="third-scene">
+                        <img data-depth="0.5" src="img/design.png" alt="design" />
+                    </div>
+                    <div class="col-xs-12 order-2 order-md-1">
+                        <h2>Spoilt For Choice Design Editor</h2>
+                        <p clas="lead">
+                            Upload or create from scratch. Choose from over 700+
+                            templates, customized specially for you!
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-center content design-editor">
+                    <div class="col-xs-12 order-2 order-md-1 smaller-images">
+                        <img src="img/analyse.png" class="mobile-image" alt="analysis" />
+                    </div>
+                    <div class="col-xs-12 order-1 order-md-2">
+                        <h2>Analyse and Retrospect</h2>
+                        <p clas="lead">
+                            Instantly gauge how your posts are performing. Our data
+                            analysis can drive your decisions, and we mean this!
+                        </p>
+                    </div>
+                </div>
+                <footer class="mobile-footer">           
+                    <p>&copy Copyright. Pyxis Social 2020</p>
+                </footer>
+            </div>
+            <div class="fixed-form">
+                <form class="mobile-form">
+                    <div class="form-group mobile-form-group">
+                        <label class="mobile-label">Which industry</label><br>
+                        <select classs="form-control form-control-mobile">
+                            <option>Choose Industry</option>
+                        </select>
+                    </div>
+                    <div class="form-group mobile-form-group">
+                        <label class="mobile-label">Email address</label>
+                        <input type="email" class="form-control form-control-mobile" placeholder="Your email">
+                    </div>   
+                </form> 
+                <button type="button" class="btn mobile-btn" data-toggle="modal" data-target="#staticBackdrop">
+                    Recieve Early Access
+                </button>
+            </div>
+        </div>    
+    </div>
+    <script src="./js/parallax.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
